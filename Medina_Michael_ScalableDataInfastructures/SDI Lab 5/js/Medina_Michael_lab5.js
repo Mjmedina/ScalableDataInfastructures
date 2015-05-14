@@ -9,4 +9,9 @@ function subNumbers (a, b)
 {
     return a -= b;
 }
+function multNumbers (a, b)
+{
+    return a *= b;
+}
+
 
