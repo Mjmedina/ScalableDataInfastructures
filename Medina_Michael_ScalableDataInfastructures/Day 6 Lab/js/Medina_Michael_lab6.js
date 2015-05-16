@@ -20,7 +20,7 @@ for (var i = 0; i < avengerNames.length; i++) {
     console.log(avengerNames[i]+" 's secret identity is "+ secretIdentity[i]);
 
 }
-
+theAvengers();
 
 
 
