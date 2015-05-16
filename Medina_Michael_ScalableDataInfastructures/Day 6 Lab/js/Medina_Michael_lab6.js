@@ -15,6 +15,12 @@ for (var i = 0; i < avengerNames.length; i++) {
 
     }
 }
+    avengerNames.push("Hawkeye");
+    secretIdentity.push("Clint Barton");
+    console.log(avengerNames[i]+" 's secret identity is "+ secretIdentity[i]);
+
+}
+
 
 
 
