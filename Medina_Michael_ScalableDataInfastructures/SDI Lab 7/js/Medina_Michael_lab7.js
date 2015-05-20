@@ -21,6 +21,9 @@ var arrayThree = [7, 90, 46, 64, 49, 93];
 //Function
 
 function numOrder(num)
+{
+
+    var temp = 0;
 
 
 
