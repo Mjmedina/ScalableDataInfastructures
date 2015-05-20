@@ -18,7 +18,9 @@ var arrayTwo = [345, 4, 69, 17, 94, 13, 12, 82];
 var arrayThree = [7, 90, 46, 64, 49, 93];
 
 
+//Function
 
+function numOrder(num)
 
 
 
