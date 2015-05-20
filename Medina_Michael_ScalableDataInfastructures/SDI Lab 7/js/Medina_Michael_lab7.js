@@ -24,6 +24,7 @@ function numOrder(num)
 {
 
     var temp = 0;
+    //Create for loop
     for(t = 0; t < num.length; ++t)
     {
         for(i = t+1; i < num.length; ++i)
@@ -35,5 +36,11 @@ function numOrder(num)
         }
     }
     console.log(num);
+}
+
+//call the arrays
+numOrder(arrayOne);
+numOrder(arrayTwo);
+numOrder(arrayThree);
 
 
