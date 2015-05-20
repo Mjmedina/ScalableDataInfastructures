@@ -24,6 +24,16 @@ function numOrder(num)
 {
 
     var temp = 0;
-
+    for(t = 0; t < num.length; ++t)
+    {
+        for(i = t+1; i < num.length; ++i)
+        {
+            if (num[t] > num[i])
+            {
+                temp = num[t]; num[t] = num[i]; num[i] = temp;
+            }
+        }
+    }
+    console.log(num);
 
 
