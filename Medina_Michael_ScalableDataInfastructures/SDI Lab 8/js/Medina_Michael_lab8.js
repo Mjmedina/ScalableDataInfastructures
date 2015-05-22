@@ -35,3 +35,17 @@ if (returnString = email(myEmail))
 //Create a function
 
 var myInput = "z y x w";
+
+//Create the function
+function symbolSwitcher(splitString, spacer)
+{
+    var t = splitString.split(spacer);
+
+    //Create some console logs in order to output different symbols in my console
+    console.log('The original string is: "'+ splitString + '"');
+    console.log('Now let us add some money: ' + t.join("$"));
+    console.log('Oh you wanted exclamation points: ' + t.join("!"));
+    return t;
+}
+var defaultSpacebar = ' ';
+symbolSwitcher(myInput, defaultSpacebar);
