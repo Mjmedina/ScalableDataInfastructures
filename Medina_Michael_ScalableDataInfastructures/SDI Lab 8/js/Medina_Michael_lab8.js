@@ -29,3 +29,9 @@ if (returnString = email(myEmail))
     console.log(" The respective locations or the '@' '.' and 'space' are "+ returnString + "\n Therefore the e-mail address is valid!");
 
 }
+
+
+//                                      Problem 2
+//Create a function
+
+var myInput = "z y x w";
