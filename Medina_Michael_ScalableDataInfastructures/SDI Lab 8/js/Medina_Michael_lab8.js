@@ -47,3 +47,5 @@ function symbolSwitcher(splitString, spacer)
     console.log('Oh you wanted exclamation points: ' + t.join("!"));
     return t;
 }
+var defaultSpacebar = ' ';
+symbolSwitcher(myInput, defaultSpacebar);
