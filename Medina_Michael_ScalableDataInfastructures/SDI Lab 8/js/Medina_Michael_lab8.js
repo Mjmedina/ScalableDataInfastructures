@@ -11,3 +11,9 @@
 
 var myEmail = "mjmedina@comcast.net";
 var returnString;
+
+function email(properFormat)
+{
+    var atSymbol = properFormat.indexOf("@");
+    var period   = properFormat.indexOf(".");
+    var noSpace  = properFormat.indexOf(" ");
