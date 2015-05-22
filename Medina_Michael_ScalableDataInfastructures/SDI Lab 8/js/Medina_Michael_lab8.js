@@ -17,3 +17,15 @@ function email(properFormat)
     var atSymbol = properFormat.indexOf("@");
     var period   = properFormat.indexOf(".");
     var noSpace  = properFormat.indexOf(" ");
+
+    return [atSymbol, period, noSpace];
+
+
+
+}
+
+if (returnString = email(myEmail))
+{
+    console.log(" The respective locations or the '@' '.' and 'space' are "+ returnString + "\n Therefore the e-mail address is valid!");
+
+}
