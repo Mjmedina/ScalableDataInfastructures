@@ -63,3 +63,19 @@ function goodDate()
     var newDate = new Date(2015, 4, 23);
 
 
+    console.log(newDate);
+    console.log(secondDate);
+
+    dateDiff = newDate - secondDate;
+
+    //To convert to Days divide by milliseconds, seconds, minutes, hours.
+    //Use .abs for absolute value
+    dateDiff = Math.abs(dateDiff / 1000 / 60 / 60 / 24);
+    dateDiff = Math.abs(dateDiff *60 *60*1000);
+
+    console.log(dateDiff);
+
+}
+
+
+goodDate();
