@@ -34,3 +34,24 @@ var t= "Four";
 
 function changeNum(theNum)
 
+{
+
+
+    if (theNum === "Four")
+    {
+        console.log(4);
+    }
+
+
+}
+
+changeNum(t);
+
+
+
+
+
+
+////Problem 3
+function goodDate()
+{
