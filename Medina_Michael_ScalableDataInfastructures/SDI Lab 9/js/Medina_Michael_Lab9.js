@@ -55,3 +55,11 @@ changeNum(t);
 ////Problem 3
 function goodDate()
 {
+    var myDate = "5/23/2016";
+    var secondDate = new Date(myDate);
+
+    console.log(myDate);
+
+    var newDate = new Date(2015, 4, 23);
+
+
