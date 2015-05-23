@@ -27,3 +27,10 @@ deciFix();
 
 
 
+//Problem 2
+
+
+var t= "Four";
+
+function changeNum(theNum)
+
