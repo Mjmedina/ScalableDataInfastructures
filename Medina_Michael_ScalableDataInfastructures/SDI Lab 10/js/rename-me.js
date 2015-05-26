@@ -19,4 +19,31 @@ function someNum(num)
 
     return random;
 }
+
+//Create a function in order to pull numbers within the Powerball main set. 1-59
+function getPowerballNum()
+{
+    return someNum([59,59,59,59,59]);
+
+}
+
+//Create a function in order to pull the single POWERBALL number. 1-35
+function getPowerball()
+{
+    return someNum([35]);
+
+}
+
+//Create a function to get the numbers for FL Lotto. 1-53
+function getLotto()
+{
+    return someNum([53,53,53,53,53,53])
+
+}
+
+
+
 someNum();
+getPowerballNum();
+getPowerball();
+getLotto();
