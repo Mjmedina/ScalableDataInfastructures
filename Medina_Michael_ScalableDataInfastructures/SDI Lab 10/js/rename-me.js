@@ -41,8 +41,11 @@ function getLotto()
 
 }
 
-powerballMain = getPowerballNum();
+powerballNum = getPowerballNum();
 powerball = getPowerball();
-lottoNumbers = getLotto();
+lotto = getLotto();
 
 
+console.log ("This week's Powerball numbers are "+ powerballNum+" with our lucky POWERBALL as "+ powerball+ "!");
+
+console.log("This week's Florida Lottery numbers are "+lotto+"!");
