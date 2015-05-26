@@ -41,9 +41,8 @@ function getLotto()
 
 }
 
+powerballMain = getPowerballNum();
+powerball = getPowerball();
+lottoNumbers = getLotto();
 
 
-someNum();
-getPowerballNum();
-getPowerball();
-getLotto();
