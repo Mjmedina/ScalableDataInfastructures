@@ -187,4 +187,4 @@ methodMath(myPrompt);
  //.getDay(): returns the day of the week as an integer
  //.getMonth() Returns the months as an integer
  //.getFullYear(): Returns full year as 4-digit number
- //.toDateString(): Returns the full sate as human-readable
+ //.toDateString(): Returns the full date as human-readable

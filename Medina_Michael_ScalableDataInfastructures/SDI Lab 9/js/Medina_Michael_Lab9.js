@@ -11,17 +11,18 @@
 //Problem 1
 
 //Create a function
-function deciFix()
-{
-    var num = parseInt(prompt("Please enter the number you wish to fix: "));
-    var dec = parseInt(prompt("Please enter the number of decimal places: "));
-    var fix = (num);
+//function deciFix()
+//{
+//    var num = parseInt(prompt("Please enter the number you wish to fix: "));
+//    var dec = parseInt(prompt("Please enter the number of decimal places: "));
+//    var fix = (num);
+//
+//    console.log(fix.toFixed(dec));
+//
+//}
+//
+//deciFix();
 
-    console.log(fix.toFixed(dec));
-
-}
-
-deciFix();
 
 
 
@@ -30,22 +31,23 @@ deciFix();
 //Problem 2
 
 
-var t= "Four";
+//var t= "Four";
+//
+//function changeNum(theNum)
+//
+//{
+//
+//
+//    if (theNum === "Four")
+//    {
+//        console.log(4);
+//    }
+//
+//
+//}
+//
+//changeNum(t);
 
-function changeNum(theNum)
-
-{
-
-
-    if (theNum === "Four")
-    {
-        console.log(4);
-    }
-
-
-}
-
-changeNum(t);
 
 
 
