@@ -7,6 +7,8 @@
 
 
                                     //POWERBALL & FL LOTTO
+
+
 //create a function to generate a random number.
 function someNum(num)
 {
