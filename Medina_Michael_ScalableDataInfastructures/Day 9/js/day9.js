@@ -62,31 +62,31 @@ function checkEmail(argEmail)
 
 //PROBLEM 2
 //Split a string at a specified separator and replace it with a new separator.
-function stringSep(oldString, firstStep, newSep)
-{
-     var newString = "";
-
-
-
-     for (var i = 0; i < oldString.length; i++) {
-
-         oldString = oldString.replace(",", "/");
-
-         console.log(oldString);
-     }
-
-     return oldString;
-}
+//function stringSep(oldString, firstStep, newSep)
+//{
+//     var newString = "";
+//
+//
+//
+//     for (var i = 0; i < oldString.length; i++) {
+//
+//         oldString = oldString.replace(",", "/");
+//
+//         console.log(oldString);
+//     }
+//
+//     return oldString;
+//}
 
 
 //Function Calls for Problem 1
 
-//emailToF = checkEmail(myEmail);
-//console.log("It is " + emailToF + " that this email is valid.");
+emailToF = checkEmail(myEmail);
+console.log("It is " + emailToF + " that this email is valid.");
 
 //Calls the PROBLEM 2 Function
-returnedString = stringSep(stringList, first, second);
-console.log("The new string is "+ returnedString);
+//returnedString = stringSep(stringList, first, second);
+//console.log("The new string is "+ returnedString);
 
 
 
@@ -130,7 +130,7 @@ function methodMath(argPrompt)
 {
     while (isNaN(argPrompt))
     {
-        argPrompt = prompt("Enter a number please: ")
+        argPrompt = prompt("Enter a phone number please: ")
 
     }
     var newAge = parseInt(argPrompt);
@@ -138,7 +138,7 @@ function methodMath(argPrompt)
 
 
 }
-var myPrompt = prompt("Enter your age");
+var myPrompt = prompt("Enter your phone number");
 
 methodMath(myPrompt);
 

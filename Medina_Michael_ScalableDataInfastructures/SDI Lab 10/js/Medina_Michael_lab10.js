@@ -39,15 +39,15 @@ function getPowerball()
 //Create a function to get the numbers for FL Lotto. 1-53
 function getLotto()
 {
-    return someNum([53,53,53,53,53,53])
+    return someNum([53,53,53,53,53,53]);
 
 }
-
-powerballNum = getPowerballNum();
-powerball = getPowerball();
+//Function Calls
+powerball = getPowerballNum();
+power = getPowerball();
 lotto = getLotto();
 
 
-console.log ("This week's Powerball numbers are "+ powerballNum+" with our lucky POWERBALL as "+ powerball+ "!");
+console.log ("This week's Powerball numbers are "+ powerball+" with our lucky POWERBALL as "+ power+ "!");
 
 console.log("This week's Florida Lottery numbers are "+lotto+"!");
